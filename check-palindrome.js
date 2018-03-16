@@ -10,7 +10,14 @@
 //[output] boolean
 //true if inputString is a palindrome, false otherwise.
 //
+//
+//Best solution by folsomwg rank#3:
+//function checkPalindrome(inputString) {
+//    return inputString == inputString.split('').reverse().join('');
+//}
+//
+//
 //My solution:
 let checkPalindrome = inputString => {
-    return inputString == inputString.split('').reverse().join('');
+    return inputString.split('').join('') === inputString.split('').reverse().join('');
 };

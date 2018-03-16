@@ -15,6 +15,12 @@
 //The number of the century the year is in.
 //
 //
+//Best solution by haynar rank#2:
+//function centuryFromYear(year) {
+//  return Math.ceil(year / 100)
+//}
+//
+//
 //My solution:
 let centuryFromYear = year => {
     let century = 0;

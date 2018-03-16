@@ -16,6 +16,11 @@
 //[output] integer
 //The sum of the two inputs.
 //
+//Best solution by hieu_u rank#2:
+//function add(param1, param2) {
+//    return -100 <= param1, param2 <= 1000 ? param1 + param2 : null;
+//}
+//
 //
 //My solution:
 let add = (param1, param2) => {

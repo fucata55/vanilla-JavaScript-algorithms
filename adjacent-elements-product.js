@@ -11,6 +11,11 @@
 //[output] integer
 //The largest product of adjacent elements.
 //
+//Best solution by myjinxin2015 rank#1:
+//function adjacentElementsProduct(arr) {
+//  return Math.max(...arr.slice(1).map((x,i)=>[x*arr[i]]))
+//}
+//
 //
 //My solution:
 let adjacentElementsProduct = inputArray => {
